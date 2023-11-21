@@ -19,7 +19,7 @@ function Banner() {
 
     return (
         <div 
-        // style={{backgroundImage: `url(${movie ? imageUrl + movie.backdrop_path : ""}}`}}
+        style={{backgroundImage: `url(${movie ? imageUrl + movie.backdrop_path : ""}}`}}
         className="banner">
             
             <div className="content">
